@@ -1,0 +1,283 @@
+.boxSliderMostView {
+    display: unset;
+}
+
+.sldrMV {
+    width: 100%;
+}
+
+.sldrT {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.sldrMV, .boxSliderPopular, .boxSliderPopular {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: none;
+}
+
+.search > .fa:after {
+    display: none;
+}
+
+.contentBnr {
+    display: unset;
+    margin: 0 auto;
+}
+
+.contentBnr > .item {
+    margin: 2px auto;
+    width: 90%;
+}
+
+.logos > .logoList {
+    justify-content: space-evenly;
+}
+
+.main .sliderMain, .main .sliderMain img {
+    height: 170px;
+}
+
+.menuMobile {
+    display: block;
+}
+
+.sizeAndFeature {
+    display: block !important;
+}
+
+.sizeAndFeature .featureProduct {
+    width: 100%;
+    margin-right: unset;
+}
+
+.contentDetails > .social {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+.nameProduct {
+    margin-top: 20px !important;
+}
+
+.rowImgGallery > .gallery_column {
+    width: 50px;
+}
+
+.modalShare {
+    left: 0%;
+    width: 350px;
+}
+
+.header {
+    z-index: 2;
+}
+
+.social i {
+    font-size: 20px;
+}
+
+.comments-list-ul > li {
+    margin-right: 80px;
+}
+
+.ct-sender {
+    margin-left: 0px;
+    left: 95%;
+}
+
+li.is-comment .ct-sender:before, li.is-answer .ct-sender:before {
+    top: 12px;
+    left: 53%;
+    font-size: 32px;
+}
+
+#sendEmail {
+    z-index: 1;
+}
+
+.o-row-contentListProduct {
+    display: block;
+    border: none;
+}
+
+.contentListProduct {
+    width: 100%;
+}
+
+.row-list > .contentListProduct {
+    width: 100%;
+}
+
+.filter {
+    display: none;
+}
+
+.o-row-contentListProduct .item {
+    width: 100%;
+    height: auto;
+    /*display: flex;*/
+}
+
+
+.o-row-contentListProduct .item > a > div > .topRight-item {
+    width: 53%;
+}
+
+.o-row-contentListProduct .item > a > div > .bottomLeft-item {
+    width: 100%;
+}
+
+.colm {
+    display: flex;
+}
+
+#search {
+    width: 88%;
+    font-size: 13px;
+}
+
+.closeSearchBox {
+    left: 20px;
+}
+
+.settingFilterMobile, .sortListMobile {
+    /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+    padding: 0px 5px;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #e0e0e0;
+}
+
+.btnFilter {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.sf-content {
+    flex: 1 1 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #f1f1f1;
+    z-index: 70;
+    display: none;
+
+}
+
+.c-setting {
+    height: 90%;
+    overflow-y: auto;
+}
+
+.sf-content.is-active {
+    display: block !important;
+}
+
+.sf-content > .c-setting > .close-sf-content {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.settingFilter {
+    margin-top: 10px;
+}
+
+.titleFilterMobile {
+    padding: 0px;
+}
+
+.btn-pro-search {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 52px;
+    background-color: #00bfd5;
+    text-align: center;
+    color: white;
+}
+
+.o-row-header {
+    display: none !important;
+}
+
+.c-profile_user {
+    display: unset;
+}
+
+.contentFavorites > .item, .contentObserved > .item {
+    flex-wrap: unset;
+}
+
+.profile-user .c-profile_user .contentItemProfile {
+    padding: 0 !important;
+}
+
+.profile-user .contentTab .content-tab {
+    padding: 0 !important;
+}
+
+.contentFavorites > .item, .contentObserved > .item {
+    width: 100%;
+}
+
+.profile-user .listItem_content .title {
+    font-size: 13px;
+}
+
+.c-profile_user .contentItemProfile {
+    margin: 10px auto;
+    flex: 4;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 20%);
+    width: 97%;
+}
+
+.c-profile_user .itemProfile {
+    width: 97% !important;
+}
+
+.delItemFavObs {
+    left: 0px !important;
+}
+
+.itemRightTop > .date, .itemRightTop > .codeProduct, .itemRightTop > .status {
+    font-size: 13px !important;
+}
+
+.itemRightTop {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.contentComment > .item {
+    width: 98%;
+}
+
+.profileUser .content .item {
+    width: 100% !important;
+}
+
+.box-login {
+    width: 350px;
+}
+
+.logoLogin > img {
+    width: 90%;
+}
+

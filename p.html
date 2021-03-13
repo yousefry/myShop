@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+    <style>
+        #box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+    </div>
+</div>
+
+<div id="container">
+    <div id="box"></div>
+</div>
+
+</body>
+
+<script>
+    window.onload = function() {
+        var box = document.getElementById('box');
+        box.addEventListener('touchmove', function(e) {
+            var touchLocation = e.targetTouches[0];
+            box.style.left = touchLocation.pageX + 'px';
+            box.style.top = touchLocation.pageY + 'px';
+        })
+        box.addEventListener('touchend', function(e) {
+            // current box position.
+            var x = parseInt(box.style.left);
+            var y = parseInt(box.style.top);
+            console.log(x,y)
+        })
+    }
+</script>
+</html>
